@@ -1,0 +1,121 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fertigo', sans-serif;
+    height: 100%; 
+    background: #071332;
+}
+
+
+
+header{
+    padding: 0px;
+}
+
+
+nav{
+    top: 0;
+    position: fixed;
+    
+}
+
+nav ul{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+nav{
+    padding: 9px;
+    background-image: url("../Contato/ceu-estrelado.jpg");
+    position: relative;
+
+    top: 110;
+}
+
+nav li{
+    display: inline;
+    margin: 0 90px 0 30px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+
+
+.background-image{
+    width: 100%;
+    height: cover;
+    padding-top: 127px;
+}
+
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -200vh;
+  transform: translate(-50%, -90%);
+}
+
+.icon-container i{
+  font-size: 5vw;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px){
+  .icon-container i{
+    font-size: 3vw;
+  }
+}
+
+
+
+.icon-link {
+    position: relative;
+    top: -220px;
+    left: 23.5%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon {
+    width: 65px;
+    height: 60px;
+  }
+
+  .icon-link1 {
+    position: relative;
+    top: -210px;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+.icon1 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon-link2{
+    position: relative;
+    top: -210px;
+    left: 26%;
+    transform: translate(-50%, -50%);
+  }
+  .icon2 {
+    width: 75px;
+    height: 80px;
+  }
+
+  

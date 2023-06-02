@@ -1,0 +1,212 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fertigo', sans-serif;
+    height: 100%;
+    
+}
+
+
+
+header{
+    padding: 350px;
+}
+
+
+nav{
+    margin-top: 0;
+    
+}
+
+nav ul{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+nav{
+    padding: 9px;
+    background-image: url("../Contato/ceu-estrelado.jpg");
+    position: relative;
+    top: 110;
+}
+
+nav li{
+    display: inline;
+    margin: 0 90px 0 30px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+
+
+.containerheader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background-image: url("../Contato/1.png");
+    background-size: cover;
+    
+}
+em{
+    font-size: 60px;
+}
+.title{
+    text-align: left;
+    font-size: 40px;
+    margin: 400px 0 0 50px;
+    color: aliceblue
+}
+
+.sobre{
+    text-align: justify;
+    font-size: 27px;
+
+}
+
+.containerElemento{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+  
+  
+  
+  
+  
+  h2{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #0a1a42;
+  }
+  .sobreNos{
+    position: absolute; 
+    top: 1050px; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    margin-bottom: 10px;
+     color: #0a1a42;
+  }
+.elemento {
+    justify-self: start;
+    position: relative;
+    display: inline-block;
+    top: -250px;
+    left: 30%;
+    color: cyan;
+    width: 80%;
+   transition: width 0.3 ease-in-out;
+   
+    
+}
+
+.elemento1 {
+    
+    position: relative;
+    display: inline-block;
+    top: -250px;
+    left: 175px;
+   align-items: center;
+    color: cyan;
+    width: 80%;
+    transition: width 0.3 ease-in-out;
+    
+}
+
+.elemento2 {
+    justify-self: end;
+    position: relative;
+    display: inline-block;
+    top: -250px;
+    align-items: right;
+    color: cyan;
+    width: 55%;
+    transition: width 0.3 ease-in-out
+    
+    
+}
+
+
+.elemento:hover .texto {
+    opacity: 1;
+    transform: translate(-60px,75px);
+    
+    font-size: 13.5px;
+}
+.elemento1:hover .texto {
+    opacity: 1;
+    transform: translate(-113px,73px);
+    font-size: 13.5px;
+}
+.elemento2:hover .texto {
+    opacity: 1;
+    transform: translate(-100px, 75px);
+    font-size: 13.5px;
+}
+
+.texto {
+    
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: cyan;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    text-align: justify;
+    max-width: auto;
+    
+}
+
+
+.about{
+    width: 100%;
+    padding-top: 250px;
+}
+
+.about img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+    
+   
+    
+    
+
+.galeria{
+    margin-top: 500px;
+}
+   .galeriaImagem{
+    background-image: url("../Contato/3.png");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+   }
+   
+
+
+
+
+    
